@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="zuoyou" unicode="&#58668;" d="M682.666667-42.66666699999996a64 64 0 0 0-45.226667 18.773334l-362.24 362.666666a64 64 0 0 0 0 90.453334l362.24 362.24a64 64 0 0 0 90.453333-90.453334L411.306667 384l316.586666-316.586667A64 64 0 0 0 682.666667-42.66666699999996z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="zuoyou1" unicode="&#59070;" d="M542.208 380.928L321.9456 604.0064a51.2 51.2 0 1 0 72.9088 71.9872l256-259.328a51.2 51.2 0 0 0-0.256-72.192l-256-256a51.2 51.2 0 1 0-72.3968 72.448l220.0064 220.0064z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

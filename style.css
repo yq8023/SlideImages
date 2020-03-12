@@ -1,0 +1,101 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+/*左右切换按钮*/
+.pre-page{
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    border-radius: 50%;
+    background-color: rgb(61, 60, 60);
+    opacity: 0.75;
+    transition: all 0.2s ease;
+}
+.pre-page svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: white;
+}
+.pre-page:hover{
+    background-color: rgb(83, 79, 79);
+}
+.next-page{
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    border-radius: 50%;
+    background-color: rgb(61, 60, 60);
+    opacity: 0.75;
+    transition: all 0.2s ease;
+}
+.next-page svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: white;
+}
+.next-page:hover{
+    background-color: rgb(83, 79, 79);
+}
+/*轮播图片区域*/
+.wrapper{
+    position: absolute;
+    width: 700vw;
+    height: 100vh;
+    transition: all 0.7s ease-in-out;
+}
+.wrapper img{
+    float: left;
+    width: 100vw;
+    height: 100vh;
+}
+/*底部按钮区域*/
+.item{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 500px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}
+.item span{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin: 5px 10px 0 10px;
+    background-color: #666;
+    cursor: pointer;
+}
+.item span.active{
+    background-color: lightblue;
+}
